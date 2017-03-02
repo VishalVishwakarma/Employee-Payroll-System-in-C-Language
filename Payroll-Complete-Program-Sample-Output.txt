@@ -1,0 +1,152 @@
+
+C:\Users\Vishal\Desktop\C>gcc payroll.c -o payroll.exe
+
+C:\Users\Vishal\Desktop\C>payroll.exe
+Enter the number of employees:2
+Enter your input for every employee:
+Employee ID:101
+Employee Name:Pooja
+Basic Salary:50000
+House Rent Allowance:2500
+Dearness Allowance:1000
+Medical Allowance:1500
+Enter the deductions:
+Provident Fund:500
+Insurance:700
+
+Employee ID:102
+Employee Name:Parul
+Basic Salary:25000
+House Rent Allowance:3500
+Dearness Allowance:1200
+Medical Allowance:800
+Enter the deductions:
+Provident Fund:450
+Insurance:750
+
+
+   EMPLOYEE PAYROLL SYSTEM
+
+
+*****CHOOSE YOUR OPTION*****
+1) SHOW ALL RECORDS
+2) ADD NEW EMPLOYEE RECORD
+3) PRINT THE SALARY SLIP
+4) UPDATE EMPLOYEE RECORD
+5) EXIT
+Enter your choice : 1
+
+Emp. ID. Emp.Name        Basic   HRA     DA      MA      PF      Insurance
+101      Pooja   50000   2500    1000    1500    500     700
+102      Parul   25000   3500    1200    800     450     750
+
+ Do You Want To Continue(1/0):1
+
+   EMPLOYEE PAYROLL SYSTEM
+
+
+*****CHOOSE YOUR OPTION*****
+1) SHOW ALL RECORDS
+2) ADD NEW EMPLOYEE RECORD
+3) PRINT THE SALARY SLIP
+4) UPDATE EMPLOYEE RECORD
+5) EXIT
+Enter your choice : 2
+Employee ID:103
+Employee Name:Vishal
+Basic Salary:10000
+House Rent Allowance:2000
+Dearness Allowance:5000
+Medical Allowance:500
+Enter the deductions:
+Provident Fund:350
+Insurance:600
+
+
+ Do You Want To Continue(1/0):1
+
+   EMPLOYEE PAYROLL SYSTEM
+
+
+*****CHOOSE YOUR OPTION*****
+1) SHOW ALL RECORDS
+2) ADD NEW EMPLOYEE RECORD
+3) PRINT THE SALARY SLIP
+4) UPDATE EMPLOYEE RECORD
+5) EXIT
+Enter your choice : 1
+
+Emp. ID. Emp.Name        Basic   HRA     DA      MA      PF      Insurance
+101      Pooja   50000   2500    1000    1500    500     700
+102      Parul   25000   3500    1200    800     450     750
+103      Vishal          10000   2000    5000    500     350     600
+
+ Do You Want To Continue(1/0):1
+
+   EMPLOYEE PAYROLL SYSTEM
+
+
+*****CHOOSE YOUR OPTION*****
+1) SHOW ALL RECORDS
+2) ADD NEW EMPLOYEE RECORD
+3) PRINT THE SALARY SLIP
+4) UPDATE EMPLOYEE RECORD
+5) EXIT
+Enter your choice : 3
+Enter employee ID to get payslip:101
+Salary Slip of Pooja:
+Employee ID: 101
+Basic Salary: 50000
+House Rent Allowance: 2500
+Dearness Allowance: 1000
+Medical Allowance: 1500
+Gross Salary: 2550000.00 Rupees
+
+Deductions:
+Provident fund: 500
+Insurance: 700
+
+Net Salary: 2548800.00 Rupees
+
+
+ Do You Want To Continue(1/0):1
+
+   EMPLOYEE PAYROLL SYSTEM
+
+
+*****CHOOSE YOUR OPTION*****
+1) SHOW ALL RECORDS
+2) ADD NEW EMPLOYEE RECORD
+3) PRINT THE SALARY SLIP
+4) UPDATE EMPLOYEE RECORD
+5) EXIT
+Enter your choice : 4
+Enter the employee ID to update data: 103
+
+
+ WHAT YOU WANT TO UPDATE?
+1) NAME
+2) BASIC SALARY
+3) HOUSE RENT ALLOWANCE
+4) DEARNESS ALLOWANCE
+5) MEDICAL ALLOWANCE
+6) PROVIDENT FUND
+7) INSURANCE
+8) UPDATE ALL RECORDS
+Enter your choice : 1
+Employee Name:John
+
+ Do You Want To Continue(1/0):1
+
+   EMPLOYEE PAYROLL SYSTEM
+
+
+*****CHOOSE YOUR OPTION*****
+1) SHOW ALL RECORDS
+2) ADD NEW EMPLOYEE RECORD
+3) PRINT THE SALARY SLIP
+4) UPDATE EMPLOYEE RECORD
+5) EXIT
+Enter your choice : 5
+
+C:\Users\Vishal\Desktop\C>
