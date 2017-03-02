@@ -14,14 +14,14 @@ Open the command prompt/CMD and get to the directory where the program is locate
 
 Type the following command to compile the code file.
 
-'''
+```
 gcc payroll.c -o payroll.exe
-'''
+```
 
 This will successfully compile the code and will be ready to run. To execute enter -
 
-'''
+```
 payroll.exe
-'''
+```
 
 This will start to execute the program.
