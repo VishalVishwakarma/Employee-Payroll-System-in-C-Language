@@ -26,7 +26,7 @@ int ch;
 while(1)
 {
       //clrscr();
-
+      system("color 9f");
       printf("==================Employee Payroll System=============\n\n");
 
       printf("1. Show All Records\n\n");
@@ -44,13 +44,19 @@ while(1)
       if (ch != 6) {
             switch(ch){
 
-                case 1: displayAll();
+                case 1: system("cls");
+                        system("color cf");
+                        displayAll();
                 break;
 
-                case 2: append();
+                case 2: system("cls");
+                        system("color 0b");
+                        append();
                 break;
 
-                case 3: display();
+                case 3:system("cls");
+                        system("color e5");
+                        display();
                 break;
 
                 case 4: modify();
